@@ -46,7 +46,7 @@ class Dashboard extends CI_Controller
         }
 
         $this->load->view('front/login', $this->viewData);
-        $this->load->view('front/anasayfa', $this->viewData);
+        
 
     }
 
