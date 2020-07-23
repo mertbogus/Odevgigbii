@@ -55,3 +55,7 @@ $route['translate_uri_dashes'] = FALSE;
 
 $route['cikis'] = 'Anasayfa/logout';
 $route['anasayfa'] = 'Anasayfa/index';
+
+$route['ajaxLogin'] = 'AjaxController/login';
+
+$route['deneme'] = 'AjaxController/deneme';

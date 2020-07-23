@@ -21,7 +21,7 @@
 .header{
 	margin-left: 5px;
 }
-.cizgi{
+.line{
 	margin-bottom:0px;
 }
 .row{
@@ -31,24 +31,25 @@
 	margin-top:20px;
 }
 
-.teklifler img{
+.bids img{
     float:left;
     padding:0 10px 10px 0;
 }
-.teklifler button{
+.bids button{
 	padding: 10px;
 	width:220px;
+
 }
-.talepler a{ 
+.request a{
 	margin-left: 5px;
 }
 #clock1{
 	padding:0px 0px 0px 2px;
 }
-.bilgi{
+.information{
 	text-align: center;
 }
-.bolum1 i{
+.episode i{
 	margin-top:12px;
 }
 .underside img{

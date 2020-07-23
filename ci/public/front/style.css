@@ -12,14 +12,10 @@
 	margin-top: -3px;
 	margin-bottom: 15px;
 	border-radius:6px;
-	border: 1px solid #BDBDBD;
-
-
 }
 #inputPassword{
 	height: 40px;
 	border-radius:6px;
-	border: 1px solid #BDBDBD;
 	margin-top: -3px;
 }
 .form-group
@@ -29,21 +25,22 @@
 	
 }
 .button{
-	width:200px;
-	height: 40px;
+	width:250px;
+	height: 45px;
 	margin-top:90px;
 	background:#43b2f8;
 	color: white;
 	font-weight: bold;
-	border-radius:6px;
-	border: 1px solid #BDBDBD;
+	border-radius:4px;
+	border: 2px #43b2f8 solid;
+
 }
 .image{
 	position: absolute;
 	margin-top: 10px;
 	width: 108px;
 }
-.kaydol{
+.register{
 	margin-top: 50px;
 	text-align:center;
 }

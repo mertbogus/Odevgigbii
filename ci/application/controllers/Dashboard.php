@@ -22,7 +22,8 @@ class Dashboard extends CI_Controller
 
         if ($this->input->post()) {
             $email = $this->input->post('email');
-            $pass = $this->input->post('password');
+            $pass = md5($this->input->post('password'));
+
             $user = $this->Users->get(array('userEmail' => $email));
             if ($user) {
 
