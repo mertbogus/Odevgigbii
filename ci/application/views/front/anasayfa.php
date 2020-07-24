@@ -12,7 +12,7 @@
 <body>
 <div class="col-lg-5 header" style="overflow: hidden; height:60px; width:auto;">
     <a href="#" class="headerlogo">
-        <img src="<?php echo base_url('public/front/image/logo.png');?>"  class="logo" id="logoo" alt="logo" width="80" height="60"/><i class="fa fa-chevron-up" style="color: grey;" id="logoicon"></i>
+        <img src="<?php echo base_url('public/front/image/logo.png');?>"  class="logo" id="logoo" alt="logo" width="60" height="50"/><i class="fa fa-chevron-up" aria-hidden="true" ></i>
     </a>
 
     <i class="fa fa-bell-o "id="belicon" style="margin-left:58%; margin-top:8%"></i>
@@ -135,7 +135,7 @@
     <hr>
 
     <div class="episode1">
-        <i class="fa fa-chevron-down fa-pull-right" aria-hidden="true" ></i>
+        <i class="fa fa-chevron-down fa-pull-right" aria-hidden="true" id="icon1" ></i>
         <p style="font-weight:550">gigbi.com <br> Özel günleri unutulmaz anlara çevirir.</p>
     </div>
     <div class="episodeunder1" style="display:none; padding-top: 5px;">
@@ -145,7 +145,7 @@
     <hr>
 
     <div class="episode2">
-        <i class="fa fa-chevron-down fa-pull-right" aria-hidden="true" ></i>
+        <i class="fa fa-chevron-down fa-pull-right" aria-hidden="true"></i>
         <p style="font-weight:550">Müşteriler</p>
     </div>
     <div class="episodeunder2" style="display:none; padding-top: 5px;">
@@ -155,7 +155,7 @@
     <hr>
 
     <div class="episode3">
-        <i class="fa fa-chevron-down fa-pull-right" aria-hidden="true" ></i>
+        <i class="fa fa-chevron-down fa-pull-right " aria-hidden="true" ></i>
         <p style="font-weight:550">Profesyoneller</p>
     </div>
     <div class="episodeunder3" style="display:none; padding-top: 5px;">
@@ -174,7 +174,7 @@
     </div>
     <hr>
     <div class="underside" style="text-align: left">
-        <i class="fa fa-inbox fa-pull-right fa-2x" aria-hidden="true" style="color:#00b0ff"></i>
+        <i class="fa fa-inbox fa-pull-right fa-2x icon4" aria-hidden="true" style="color:#00b0ff"></i>
         <img src="<?php echo base_url('public/front/image/logo.png');?>" width="70" height="55"/>
         <p style="padding-top:7px">2020 gigbi.com</p>
 
@@ -183,29 +183,34 @@
 <script>
     $(document).ready(function(){
         $(".logo").click(function(){
-            $("#headmenu").toggle(2000);
+            $("#headmenu").toggle(500);
+            $(this).find($(".fa")).toggleClass('fa fa-chevron-up').toggleClass('fa fa-chevron-down');
         });
     });
 </script>
 <script>
     $(document).ready(function(){
         $(".episode1").click(function(){
-            $(".episodeunder1").toggle(2000);
+            $(".episodeunder1").toggle(500);
+            $(this).find($(".fa")).toggleClass('fa fa-chevron-down').toggleClass('fa fa-chevron-up');
         });
     });
     $(document).ready(function(){
         $(".episode2").click(function(){
-            $(".episodeunder2").toggle(2000);
+            $(".episodeunder2").toggle(500);
+            $(this).find($(".fa")).toggleClass('fa fa-chevron-down').toggleClass('fa fa-chevron-up');
         });
     });
     $(document).ready(function(){
         $(".episode3").click(function(){
-            $(".episodeunder3").toggle(2000);
+            $(".episodeunder3").toggle(500);
+            $(this).find($(".fa")).toggleClass('fa fa-chevron-down').toggleClass('fa fa-chevron-up');
         });
     });
     $(document).ready(function(){
         $(".episode4").click(function(){
-            $(".episodeunder4").toggle(2000);
+            $(".episodeunder4").toggle(500);
+            $(this).find($(".fa")).toggleClass('fa fa-chevron-down').toggleClass('fa fa-chevron-up');
         });
     });
 
