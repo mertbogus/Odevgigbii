@@ -27,7 +27,7 @@
             <a href="<?php echo base_url('cikis') ?>">Çıkış</a>
         </div>
     </div>
-    <div class="request">
+    <div class="request" style="padding-top: 15px;">
         <h2>Düğün Fotoğrafçısı</h2>
         <p>Talep 5 Kasım, 2019 tarihinde oluşturuldu.<a href="">Daha Fazla</a></p>
     </div>
@@ -41,11 +41,11 @@
         <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
         <h6>Kalbimizde Düğün Var</h6>
         <div id="stars">
-            <i class="fa fa-star"style="color: #fff700;"></i>
+            <i class="fa fa-star s"style="color: #fff700;"></i>
             <i class="fa fa-star"style="color: #fff700;"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
-            <i class="fa fa-star">()</i><br>
+            <i class="fa fa-star"> 2.0 (20)</i><br>
         </div><br>
         <div class="col-lg-3 btn">
             <button type="button" class="btn btn-primary btn-sm" style="background:#00b0ff; border:none;">İletişime Geç</button>
@@ -61,7 +61,7 @@
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
-                <i class="fa fa-star">()</i><br>
+                <i class="fa fa-star"> 3.0 ()</i><br>
             </div><br>
             <div class="col-lg-3 btn">
                 <button type="button" class="btn btn-primary btn-sm" style="background:#00b0ff; border:none;">İletişime Geç</button>
@@ -78,7 +78,7 @@
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
-                <i class="fa fa-star">()</i>
+                <i class="fa fa-star"> 4.0 (22)</i>
             </div><br>
             <div class="col-lg-3 btn">
                 <button type="button" class="btn btn-primary btn-sm" style="background:#00b0ff; border:none;">İletişime Geç</button>
@@ -95,7 +95,7 @@
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
-                <i class="fa fa-star">()</i><br>
+                <i class="fa fa-star"></i> 1.0 (15)<br>
             </div><br>
             <div class="col-lg-3 btn">
                 <button type="button" class="btn btn-primary btn-sm " style="background:#00b0ff;border:none;">İletişime Geç</button>
@@ -112,7 +112,7 @@
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
-                <i class="fa fa-star">()</i>
+                <i class="fa fa-star"> 2.0 (22)</i>
             </div><br>
             <div class="col-lg-3 btn">
                 <button type="button" class="btn btn-primary btn-sm" style="background:#00b0ff; border: none">İletişime Geç</button>
