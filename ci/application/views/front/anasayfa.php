@@ -40,8 +40,8 @@
         <img src="<?php echo base_url('public/front/image/talep1.jpg');?>" id="talep1"/>
         <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
         <h6>Kalbimizde Düğün Var</h6>
-        <div id="stars">
-            <i class="fa fa-star s"style="color: #fff700;"></i>
+        <div id="stars" style="color: #9E9E9E;">
+            <i class="fa fa-star "style="color: #fff700;"></i>
             <i class="fa fa-star"style="color: #fff700;"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
@@ -56,7 +56,7 @@
             <img src="<?php echo base_url('public/front/image/talep1.jpg');?>" id="talep2"/>
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h6>Kalbimizde Düğün Var</h6>
-            <div id="stars">
+            <div id="stars" style="color: #9E9E9E;">
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
@@ -73,7 +73,7 @@
             <img src="<?php echo base_url('public/front/image/talep1.jpg');?>" id="talep3"/>
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h6>Kalbimizde Düğün Var</h6>
-            <div id="stars">
+            <div id="stars" style="color: #9E9E9E;">
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
@@ -90,7 +90,7 @@
             <img src="<?php echo base_url('public/front/image/talep1.jpg');?>" id="talep4"/>
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h6>Kalbimizde Düğün Var</h6>
-            <div id="stars">
+            <div id="stars" style="color: #9E9E9E;">
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -107,7 +107,7 @@
             <img src="<?php echo base_url('public/front/image/talep1.jpg');?>" id="talep5"/>
             <i class="fa fa-clock-o" aria-hidden="true" id="clock5">Teklif bekleniyor.</i>
             <h6>Kalbimizde Düğün Var</h6>
-            <div id="stars">
+            <div id="stars" style="color: #9E9E9E;">
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
