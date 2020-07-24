@@ -10,11 +10,11 @@
     <title>Gigbi Talepler</title>
 </head>
 <body>
-<div class="col-lg-5 header" style="overflow: hidden; height:60px; width:auto;">
+<div class="col-lg-6 header" style="overflow: hidden; height:70px; width:auto;">
     <a href="#" class="headerlogo">
-        <img src="<?php echo base_url('public/front/image/logo.png');?>"  class="logo" id="logoo" alt="logo" width="60" height="50"/><i class="fa fa-chevron-up" aria-hidden="true" ></i>
+        <img src="<?php echo base_url('public/front/image/logo.png');?>"  class="logo" id="logoo" alt="logo" width="60" height="50"/>
     </a>
-
+    <i class="fa fa-chevron-down" aria-hidden="true" ></i>
     <i class="fa fa-bell-o "id="belicon" style="margin-left:58%; margin-top:8%"></i>
 </div>
 <hr class="line">
@@ -105,7 +105,7 @@
 
         <div class="bids">
             <img src="<?php echo base_url('public/front/image/talep1.jpg');?>" id="talep5"/>
-            <i class="fa fa-clock-o" aria-hidden="true" id="clock5">Teklif bekleniyor.</i>
+            <i class="fa fa-clock-o" aria-hidden="true" id="clock5"> Teklif bekleniyor.</i>
             <h6>Kalbimizde Düğün Var</h6>
             <div id="stars" style="color: #9E9E9E;">
                 <i class="fa fa-star"style="color: #fff700;"></i>
