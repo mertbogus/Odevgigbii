@@ -41,8 +41,8 @@
         <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
         <h6>Kalbimizde Düğün Var</h6>
         <div id="stars">
-            <i class="fa fa-star"></i>
-            <i class="fa fa-star"></i>
+            <i class="fa fa-star"style="color: #fff700;"></i>
+            <i class="fa fa-star"style="color: #fff700;"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star">()</i><br>
@@ -57,9 +57,9 @@
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h6>Kalbimizde Düğün Var</h6>
             <div id="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star">()</i><br>
             </div><br>
@@ -74,10 +74,10 @@
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h6>Kalbimizde Düğün Var</h6>
             <div id="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star">()</i>
             </div><br>
             <div class="col-lg-3 btn">
@@ -91,7 +91,7 @@
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h6>Kalbimizde Düğün Var</h6>
             <div id="stars">
-                <i class="fa fa-star"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -108,8 +108,8 @@
             <i class="fa fa-clock-o" aria-hidden="true" id="clock5">Teklif bekleniyor.</i>
             <h6>Kalbimizde Düğün Var</h6>
             <div id="stars">
-                <i class="fa fa-star"></i>
-                <i class="fa fa-star"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
+                <i class="fa fa-star"style="color: #fff700;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star">()</i>
