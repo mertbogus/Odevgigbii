@@ -27,7 +27,7 @@
             <a href="<?php echo base_url('cikis') ?>">Çıkış</a>
         </div>
     </div>
-    <div class="request" style="padding-top: 15px;">
+    <div class="request" style="padding-top: 20px;">
         <h2>Düğün Fotoğrafçısı</h2>
         <p>Talep 5 Kasım, 2019 tarihinde oluşturuldu.<a href="">Daha Fazla</a></p>
     </div>
