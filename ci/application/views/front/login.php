@@ -36,7 +36,7 @@ $this->load->view('front/static/header') ?>
                 <a class="a" href="" target="_blank">Parolanı mı unuttun?</a>
             </div>
             <div class="col text-center">
-                <button id="loginBtn" class="button" width="350px" name="gonder">Giriş</button>
+                <button id="loginBtn" class="button" width="350px" name="gonder" style="border: 1px solid #43b2f8;">Giriş</button>
                 <br>
             </div>
             <div class="register">
