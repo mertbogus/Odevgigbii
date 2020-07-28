@@ -185,8 +185,10 @@
     $(document).ready(function(){
         $(".logo").click(function(){
             $("#headmenu").toggle(500);
+            $(this).find($(".fa")).toggleClass('fa fa-angle-down').toggleClass('fa fa-angle-up');
         });
     });
+
 </script>
 <script>
     $(document).ready(function(){
