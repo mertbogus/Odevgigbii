@@ -11,12 +11,13 @@
 </head>
 <body>
 <div class="header" style="overflow: hidden; height:60px; width:auto;">
-    <a href="#" class="headerlogo" style="width:90px">
+    <a href="#" class="headerlogo" style="text-decoration: none;">
         <img src="<?php echo base_url('public/front/image/logo.png');?>"  class="logo" id="logoo" alt="logo"/>
+        <i class="fa fa-angle-down fa-1x center" aria-hidden="true" style="color: #9E9E9E;  margin-top:30px;" id="angledown"></i>
     </a>
-    <i class="fa fa-angle-down fa-1x center" aria-hidden="true" style="color: #9E9E9E;  margin-top:30px;"></i>
     <i class="fa fa-bell-o "id="belicon" style="float: right; margin-top: 27px; margin-right:5px; "></i>
 </div>
+
 
 <hr class="line">
 <div class="col-lg-12 pull-left">
@@ -42,8 +43,8 @@
         <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
         <h5>Kalbimizde Düğün Var</h5>
         <div id="stars" style="color: #9E9E9E;">
-            <i class="fa fa-star "style="color: #fac73f;"></i>
-            <i class="fa fa-star"style="color: #fac73f;"></i>
+            <i class="fa fa-star "style="color: #fac22d;"></i>
+            <i class="fa fa-star"style="color: #fac22d;"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"></i>
             <i class="fa fa-star"> <span style="color: #fac73f; font-weight: bold">2.0</span></i><span style="color: black; font-weight:600"> (25)</span> <br>
@@ -58,9 +59,9 @@
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h5>Kalbimizde Düğün Var</h5>
             <div id="stars" style="color: #9E9E9E;">
-                <i class="fa fa-star"style="color: #fac73f;"></i>
-                <i class="fa fa-star"style="color: #fac73f;"></i>
-                <i class="fa fa-star"style="color: #fac73f;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"><span style="color: #fac73f; font-weight: bold"> 3.0</span></i><span style="color: black; font-weight:600" > (25)</span><br>
             </div><br>
@@ -75,10 +76,10 @@
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h5>Kalbimizde Düğün Var</h5>
             <div id="stars" style="color: #9E9E9E;">
-                <i class="fa fa-star"style="color: #fac73f;"></i>
-                <i class="fa fa-star"style="color: #fac73f;"></i>
-                <i class="fa fa-star"style="color: #fac73f;"></i>
-                <i class="fa fa-star"style="color: #fac73f;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
                 <i class="fa fa-star"><span style="color: #fac73f; font-weight: bold"> 3.0</span></i><span style="color: black; font-weight:600" > (25)</span><br>
             </div><br>
             <div class="col-lg-3 btn">
@@ -92,7 +93,7 @@
             <p class="fa fa-clock-o">&nbsp;Teklif bekleniyor.</p>
             <h5>Kalbimizde Düğün Var</h5>
             <div id="stars" style="color: #9E9E9E;">
-                <i class="fa fa-star"style="color: #fac73f;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
@@ -109,8 +110,8 @@
             <i class="fa fa-clock-o" aria-hidden="true" id="clock5"> Teklif bekleniyor.</i>
             <h5>Kalbimizde Düğün Var</h5>
             <div id="stars" style="color: #9E9E9E;">
-                <i class="fa fa-star"style="color: #fac73f;"></i>
-                <i class="fa fa-star"style="color: #fac73f;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
+                <i class="fa fa-star"style="color: #fac22d;"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"></i>
                 <i class="fa fa-star"><span style="color: #fac73f; font-weight: bold"> 3.0</span></i><span style="color:black; font-weight:600" > (25)</span><br>
@@ -185,10 +186,13 @@
     $(document).ready(function(){
         $(".logo").click(function(){
             $("#headmenu").toggle(500);
+        });
+    });
+    $(document).ready(function(){
+        $(".headerlogo").click(function(){
             $(this).find($(".fa")).toggleClass('fa fa-angle-down').toggleClass('fa fa-angle-up');
         });
     });
-
 </script>
 <script>
     $(document).ready(function(){

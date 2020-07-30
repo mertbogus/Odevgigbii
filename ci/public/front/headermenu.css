@@ -13,10 +13,12 @@
   padding: 10px; 
   margin-left: 10px;
   font-weight:550;
+
 }
 
 .vertical-menu a:hover {
   border: 1px solid #2B8FEC;
+    text-decoration: none;
 }
 .header{
 	margin-left: 13px;
